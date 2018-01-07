@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
+}
+body{
+    font-family: Roboto;
+}
+
 h1{
     font-size: 25px;
     text-align: center;
@@ -5,7 +18,7 @@ h1{
 }
 .box{
     float: left;
-    width: 31%;
+    width: 30%;
     padding-bottom: 21.7%;
     text-align: center;
     box-sizing: border-box;
@@ -17,9 +30,10 @@ h1{
     transition: 0.3s;   
 }
 .box:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
 }
 .xbox{
+    margin-left: 10px;
     padding: 0px;
     height: 200px;
     border-top-left-radius: 10px;
@@ -27,12 +41,18 @@ h1{
 }
 .xbox-1{
     background-color: yellow;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .xbox-2{
     background-color: dodgerblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .xbox-3{
     background-color: mediumseagreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .yo{
     position: relative;

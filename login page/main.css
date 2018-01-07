@@ -33,7 +33,7 @@ body{
     background-color: #f0f0f0;
     border: none; 
 }
-.login{
+.bar{
     background-color: dodgerblue;
     border: none;
     width: 200px;
@@ -46,10 +46,9 @@ body{
 a{
     font-size: smaller;
 }
-.login :hover{
-    background:black;
-    color: white;
-    tab-size: 15px;
-}
+
+.bar :hover{
+    background-color:#008CBA;
     
 }
+
